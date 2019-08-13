@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20px auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -10,4 +10,73 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.constainerDiv{
+  margin: 0 auto;
+  width : 80%;
+}
+.pokeCardscontainer{
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.card{
+  width: auto;
+  display: inline;
+}
+.cardContent{
+  height: 300px;
+  width: 250px;
+  border: 1px  solid 888888;
+  box-shadow: 5px 10px 18px #888888;
+}
+.contentHeader{
+  height: 35px;
+  width : 100%;
+  background: #008050;
+  color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+}
+.contentHeaderName{
+  width: 65%;
+  text-align: left;
+  padding: 5px 15px;
+}
+.contentHeaderId{
+  width:20%;
+  text-align: left;
+  padding: 5px 0px;
+}
+.contentBody{
+  height: 100%;
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 200px;
+  
+}
+.Buttons{
+  display: flex;
+  margin-top: 15px;
+}
+button{
+  color : white;
+  background-color: green;
+  border: 1px  solid green;
+  padding:  5px 10px; 
+}
+.leftButton{
+  display: flex;
+  width : 50%;
+  justify-content: flex-start;
+}
+.rightButton{
+  display: flex;
+  justify-content: flex-end;
+  width : 50%;
 }
